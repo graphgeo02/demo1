@@ -1,0 +1,87 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root font size */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+/* Body styles */
+body {
+  font-size: 1.6rem; /* 16px */
+  font-family: serif, sans-serif;
+}
+
+/* Header styles */
+header nav {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 2rem;
+  
+}
+.section2 h1{
+  font-size: 5rem;
+  margin: 20px;
+  color: #A427AB;
+}
+.section1 p{
+  margin-left: 20px;
+}
+.section2 p{
+  font-size: 2rem;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  margin-left: 20px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+  min-height: 80vh;
+  padding: 2rem;
+}
+
+/* Box styles */
+.box {
+  max-width: 90%;
+  margin: 0 auto 2rem; /* Center and add space below */
+}
+
+.box img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.6rem; /* 16px */
+}
+/*<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 700*/
+
+.lora{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,0 +1,72 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root font size */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+/* Body styles */
+body {
+  font-size: 1.6rem; /* 16px */
+  font-family: serif, sans-serif;
+}
+
+/* Header styles */
+header nav {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  margin-left: 20px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.section1{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.section p{
+  margin-bottom: 10px;
+}
+
+/* Main content styles */
+main {
+  min-height: 80vh;
+  padding: 2rem;
+}
+
+/* Box styles */
+.box {
+  max-width: 90%;
+  margin: 0 auto 2rem; /* Center and add space below */
+}
+
+.box img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.6rem; /* 16px */
+}
