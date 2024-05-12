@@ -66,6 +66,7 @@ main {
 .box img {
   width: 100%;
   margin-bottom: 0.5rem;
+  min-height: 1 #42445Aem;
 }
 
 /* Footer styles */
